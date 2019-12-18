@@ -4,7 +4,7 @@
     xmlns="http://tempuri.org/XMLSchema.xsd"
     xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
     xmlns:x="http://www.w3.org/2001/XMLSchema">
-
+<!--Just test-->
   <x:simpleType name="Entr_Name">
     <x:restriction base="x:string">
       <x:pattern value="[a-zA-Z]{5,12}"/>

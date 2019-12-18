@@ -3,13 +3,8 @@
         xsi:noNamespaceSchemaLocation="XMLSchema.xsd">
 
   <Aerien societe="transAvion">
-    <!--PAtern nom entreprise-->
-    <avion nom=""></avion>
-    <fusee nom="">
-      </avion>
-      <avion nom=""></avion>
-      <avion nom=""></avion>
-      <avion nom=""></avion>
+    <!--PAtern pour nom entreprise-->
+    
     </Aerien>
   <Marin>
     <Submarin>
