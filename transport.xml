@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MoyenTransport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="XMLSchema.xsd">
+
+  <Aerien societe="transAvion">
+    <!--PAtern nom entreprise-->
+    <avion nom=""></avion>
+    <fusee nom="">
+      </avion>
+      <avion nom=""></avion>
+      <avion nom=""></avion>
+      <avion nom=""></avion>
+    </Aerien>
+  <Marin>
+    <Submarin>
+      <Nucleaire sonare="True">
+
+      </Nucleaire>
+      <Sousmarin>
+
+      </Sousmarin>
+    </Submarin>
+    <Surmarin>
+      <Bateau Masse="geant">
+
+      </Bateau>
+    </Surmarin>
+  </Marin>
+  <Terrain typeCarburant="diesel" puissanceChevaux="50">
+    <!--Aprés ajouter Patern HS-->
+    <Automobil>
+    </Automobil>
+    <Train nombreWagon="10">
+
+    </Train>
+  </Terrain>
+</MoyenTransport>

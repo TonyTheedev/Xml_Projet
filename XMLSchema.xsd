@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<x:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:x="http://www.w3.org/2001/XMLSchema">
+
+  <x:simpleType name="Entr_Name">
+    <x:restriction base="x:string">
+      <x:pattern value="[a-zA-Z]{5,12}"/>
+    </x:restriction>
+  </x:simpleType>
+
+  <x:complexType name="T_Aerien">
+    <x:attribute name="Entr_Name" use="required"/>
+
+  </x:complexType>
+
+  <x:element name="MoyenTransport">
+    <x:complexType>
+      <x:sequence>
+        <x:element name="Aerien" type="T_Aerien"/>
+        <x:element name="Marin" type="T_Marin"/>
+        <x:element name="Terrain" type="T_Terrain"/>
+      </x:sequence>
+    </x:complexType>
+  </x:element>
+
+</x:schema>
